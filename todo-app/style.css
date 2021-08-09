@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #9b59b6;
+}
+
+
+
+.todo-input-container{
+
+    height: 100px;
+    
+    padding: 20px;
+    }
+    .todo-input{
+
+    height: 60%;
+    
+    padding: 10px;
+    
+    width: 80%;
+    
+    outline: none;
+    
+    border: 0px;
+    
+    border-radius: 50px;
+    
+    font-size: 100%;
+    
+    display: block;
+    
+    margin: auto;
+    
+    margin-bottom: 20px;
+    }
+    .add-todo{
+    
+    display: block;
+    
+    margin: auto;
+    
+    height: 30px;
+    
+    width: 100px;
+    
+    border: 2px solid;
+    
+    border-radius: 30px;
+    
+    font-weight: bold;
+    
+    }
+    .todo-list-container{
+    
+    padding: 10px;
+    }
+    .todo-input-list{
+    
+    width: 60%;
+    
+    margin: auto;
+    
+    margin-top: 40px;
+    
+    padding: 10px;
+    
+    border-radius: 20px;
+    
+    text-align: center;
+    }
+    .todo{
+    
+    font-size: 20px;
+    
+    margin: auto;
+    
+    color: black;
+    }
+    .delete-todo{
+
+    background-image: url('https://cdn.iconscout.com/icon/premium/png-512-thumb/delete-1432400-1211078.png');
+
+    background-size: 40px;
+    
+    background-position: center;
+
+    background-repeat: no-repeat; /*it is used to remove the multiple same image in the background  */
+
+    position: relative;
+        
+    background-color: #9b59b6;
+        
+    color: #ff0000;
+        
+    height: 42px;
+        
+    width: 31px;
+        
+    border: none;
+        
+    border-radius: 5px;
+    }

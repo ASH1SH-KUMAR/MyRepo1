@@ -1,0 +1,4 @@
+fs.writeFileSync will always want a string or buffer type data
+.find function is also a part of cherrio .load 
+
+cheerio also have a .attr("here the attribute name comes") function to find the specific attribute

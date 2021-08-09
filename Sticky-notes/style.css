@@ -1,0 +1,185 @@
+* {
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #f7f1e3;
+}
+
+.functions-bar {
+    /* display: inline-block; */
+    background-color: cadetblue;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0px;
+    
+}
+
+.filters {
+    height: 50%;
+    background-color: darkcyan;
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.color{
+  transition: transform 0.1s;
+  height: 50%;
+  width: 10%;
+  opacity: 0.7;
+  border-radius: 15px;
+}
+.color:hover{
+ opacity: 1.0;
+ transform: scale(1.2);
+}
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.tools {
+    justify-content: space-evenly;
+    height: 50%;
+    width: 10%;
+    background-color: #008b8b;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.icon:hover{
+  transform: scale(1.2);
+}
+.add-sticky  {
+    font-size: 28px;
+}
+
+.close-sticky  {
+    font-size: 30px;
+}
+.ticket-container {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: space-evenly;
+    align-self: auto;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+
+.open-modal {
+    height: 250px;
+    width: 350px;
+    position: fixed;
+    top: 200px;
+    display: flex;
+    left: calc(50vw - 200px);
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.ticket-content {
+    width: 70%;
+    background-color: #9e9e9e;
+    /* z-index: 1; */
+    height: 100%;
+    overflow: auto;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ticket-color {
+    width: 30%;
+    height: 100%;
+    background-color: #607d8b;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter{
+    height: 10%;
+    width: 50%;
+    border-radius: 15px;
+    opacity: 0.6;
+}
+
+.selt-filter{
+ border: 2px solid white;
+ opacity: 1.0;
+}
+
+.filter:hover{
+ opacity: 1.0;
+}
+
+.sticky-ticket{
+  display: flex;
+  height: 180px;
+  width: 230px;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 30px;
+
+}
+
+.sticky-text{
+    height: 90%;
+    width: 100%;
+    background-color: silver;
+    overflow: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    word-break: break-word;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.sticky-color{
+  height: 10%;
+  width: 100%;
+  
+
+}
+
+.fa-trash{
+  float: right;
+  margin: 3px;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+}
+
+.Ticket-no{
+  font-size: 14px;
+}
+
+.active-filter{
+  border: 2px solid white;
+  opacity: 1.0;
+}
